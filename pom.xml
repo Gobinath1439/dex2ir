@@ -1,0 +1,20 @@
+<project>
+  ...
+  <properties>
+    <mavenVersion>3.0</mavenVersion>
+  </properties>
+ 
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-artifact</artifactId>
+      <version>${mavenVersion}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-core</artifactId>
+      <version>${mavenVersion}</version>
+    </dependency>
+  </dependencies>
+  ...
+</project>
